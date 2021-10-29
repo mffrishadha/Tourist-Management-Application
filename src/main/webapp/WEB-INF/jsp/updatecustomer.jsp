@@ -24,7 +24,7 @@
               <td><form:input path="nic"/></td>
           </tr>
         <tr>
-            <td>PASS PORT: </td>
+            <td>PASS PORT NO: </td>
             <td><form:input path="passportNo"/></td>
          </tr>
         <tr>
