@@ -9,7 +9,7 @@
             <th>Phone</th>
             <th>Email</th>
             <th>NIC</th>
-            <th>Passport</th>
+            <th>Passport No:</th>
             <th>Update</th>
             <th>Delete</th>
         </tr>
