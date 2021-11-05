@@ -4,8 +4,8 @@
     <table border="2" width="70%" cellpadding="2">
         <tr>
             <th>Id</th>
-            <th>F.Name</th>
-            <th>L.Name</th>
+            <th>First Name</th>
+            <th>Last Name</th>
             <th>Phone</th>
             <th>Email</th>
             <th>NIC</th>
