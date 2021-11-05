@@ -15,6 +15,12 @@ public class EmployeeController {
     @Autowired
     private EmployeeService employeeService;
 
+    @GetMapping("/read-employee")
+    public String showReadEmployeePage(Model model) {
+        model.addAttribute("employees", employeeService.findAll());
+        return "reademployee";
+    }
+
     @GetMapping("/create-employee")
     public String showCreateEmployeePage(Model model) {
         model.addAttribute("command", new Employee());

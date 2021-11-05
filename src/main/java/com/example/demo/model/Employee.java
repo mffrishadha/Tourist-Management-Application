@@ -37,9 +37,10 @@ public class Employee{
     private String lastname;
 
     @Column
-    private String lisenceNo;
+    private String licenseNo;
 
     @Column
     private String phoneNumber;
+
 
 }
