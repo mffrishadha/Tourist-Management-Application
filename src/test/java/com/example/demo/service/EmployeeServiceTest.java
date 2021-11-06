@@ -12,14 +12,14 @@ import org.springframework.boot.test.context.SpringBootTest;
 import javax.persistence.EntityNotFoundException;
 
 @SpringBootTest
-@TestInstance(TestInstance.Lifecycle.PER_METHOD)
+@TestInstance(TestInstance.Lifecycle.PER_CLASS)
 
 public class EmployeeServiceTest {
     @Autowired
     private EmployeeService employeeService;
 
     @BeforeAll
-    void setUp() {
+     void setUp() {
         Employee employee = new Employee();
         employee.setFirstname("Alex");
         employee.setLastname("Sue");
