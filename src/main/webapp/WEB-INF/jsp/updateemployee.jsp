@@ -1,7 +1,7 @@
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 
-<h1>Update Customer</h1>
-<form:form method="post" action="/update-customer/${id}">
+<h1>Update Employee</h1>
+<form:form method="post" action="/update-employee/${id}">
     <table>
 
         <tr>
