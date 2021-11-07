@@ -5,6 +5,19 @@
     <table>
 
         <tr>
+            <td>Username: </td>
+            <td><form:input path="username"/></td>
+        </tr>
+
+          <tr>
+              <td>Password: </td>
+              <td><form:input path="password"/></td>
+          </tr>
+        <tr>
+            <td>EmployeeType: </td>
+            <td><form:input path="employeeType"/></td>
+         </tr>
+        <tr>
             <td>First Name: </td>
           <td><form:input path="firstname"/></td>
         </tr>
@@ -15,28 +28,13 @@
         </tr>
 
         <tr>
-            <td>Username: </td>
-            <td><form:input path="username"/></td>
-        </tr>
-
-          <tr>
-              <td>Password: </td>
-              <td><form:input path="password"/></td>
-          </tr>
-
-        <tr>
-            <td>EmployeeType: </td>
-            <td><form:input path="employeetype"/></td>
-         </tr>
-
-        <tr>
             <td>LicenseNo: </td>
             <td> <from:input path="licenseno"/></td>
         </tr>
 
         <tr>
               <td>Phone: </td>
-              <td><form:input path="phoneNo"/></td>
+              <td><form:input path="phoneNumber"/></td>
         </tr>
 
         <tr>

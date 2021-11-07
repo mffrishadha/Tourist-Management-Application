@@ -30,11 +30,11 @@ public class EmployeeService {
     public Employee updateEmployee(int id, Employee employee) {
 
         Employee updatedEmployee = employeeRepository.findById(id).orElse(null);
-        updatedEmployee.setFirstname(employee.getFirstname());
-        updatedEmployee.setLastname(employee.getLastname());
         updatedEmployee.setUsername(employee.getUsername());
         updatedEmployee.setPassword(employee.getPassword());
         updatedEmployee.setEmployeeType(employee.getEmployeeType());
+        updatedEmployee.setFirstname(employee.getFirstname());
+        updatedEmployee.setLastname(employee.getLastname());
         updatedEmployee.setLicenseNo(employee.getLicenseNo());
         updatedEmployee.setPhoneNumber(employee.getPhoneNumber());
 
