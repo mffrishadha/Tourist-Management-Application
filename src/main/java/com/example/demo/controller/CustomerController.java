@@ -36,12 +36,6 @@ public class CustomerController {
 
 
 
-
-
-
-
-
-
     @GetMapping("/update-customer/{id}")
     public String showUpdateCustomerPage(@PathVariable int id, Model model) {
         model.addAttribute("id", id);
@@ -54,10 +48,6 @@ public class CustomerController {
         customerService.updateCustomer(id, customer);
         return "redirect:/read-customer";
     }
-
-
-
-
 
 
     @GetMapping("/delete-customer/{id}")
