@@ -11,6 +11,7 @@
             <th>Password</th>
             <th>License Number</th>
             <th>Phone Number</th>
+            <th>Update</th>
             <th>Delete</th>
         </tr>
         <c:forEach var="employee" items="${employees}">
