@@ -2,10 +2,7 @@ package com.example.demo.service;
 
 
 import com.example.demo.model.Employee;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.TestInstance;
+import org.junit.jupiter.api.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -43,5 +40,9 @@ public class EmployeeServiceTest {
         Assertions.assertEquals("Alex", employee.getFirstname());
     }
 
+    @AfterAll
+    void tearDown() {
+        employeeService.deleteById(1);
+    }
 
 }
