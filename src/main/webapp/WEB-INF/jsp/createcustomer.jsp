@@ -7,9 +7,15 @@
             <td>First Name: </td>
             <td><form:input path="firstname"/></td>
         </tr>
+
         <tr>
             <td>Last Name: </td>
-            <td><form:input path="lastname"/></td>
+            <td><form:input path="username"/></td>
+        </tr>
+
+        <tr>
+              <td>Last Name: </td>
+              <td><form:input path="password"/></td>
         </tr>
         <tr>
              <td>Phone number: </td>

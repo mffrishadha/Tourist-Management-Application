@@ -1,6 +1,6 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
-<h1>Read Customers</h1>
+<h1>Customers Details</h1>
     <table border="2" width="70%" cellpadding="2">
         <tr>
             <th>Id</th>

@@ -5,10 +5,7 @@ import com.example.demo.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.*;
 
 @Controller
 public class CustomerController {
@@ -19,13 +16,13 @@ public class CustomerController {
     @GetMapping("/read-customer")
     public String showReadCustomerPage(Model model) {
         model.addAttribute("customers", customerService.findAll());
-        return "readcustomer";
+        return "view";
     }
 
     @GetMapping("/create-customer")
     public String showCreateCustomerPage(Model model) {
         model.addAttribute("command", new Customer());
-        return "createcustomer";
+        return "SignUp";
     }
 
     @PostMapping("/create-customer")

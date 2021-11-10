@@ -30,6 +30,8 @@ public class CustomerService {
         Customer updatedCustomer = customerRepository.findById(id).orElse(null);
         updatedCustomer.setFirstname(customer.getFirstname());
         updatedCustomer.setLastname(customer.getLastname());
+        updatedCustomer.setUsername(customer.getUsername());
+        updatedCustomer.setPassword(customer.getPassword());
         updatedCustomer.setPhoneNo(customer.getPhoneNo());
         updatedCustomer.setEmail(customer.getEmail());
         updatedCustomer.setNic(customer.getNic());
@@ -42,6 +44,10 @@ public class CustomerService {
     public void deleteById(int id) {
         customerRepository.deleteById(id);
     }
+
+    public Customer findByUsernameAndPassword(String username, String password){
+      return  customerRepository.findByUsernameAndPassword(username,password).orElse(null);
+    };
 
 }
 

@@ -28,6 +28,12 @@ public class Customer {
     private String lastname;
 
     @Column
+    private String username;
+
+    @Column
+    private String password;
+
+    @Column
     private String phoneNo;
 
     @Column
