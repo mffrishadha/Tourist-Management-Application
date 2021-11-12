@@ -20,10 +20,9 @@ public class EmployeeServiceTest {
         Employee employee = new Employee();
         employee.setFirstname("Alex");
         employee.setLastname("Sue");
-        employee.setEmployeeType("Guide");
+        employee.setUserType("Guide");
         employee.setUsername("AlexSue");
         employee.setPassword("alex@123");
-        employee.setLicenseNo("2345321");
         employee.setPhoneNumber("0774589685");
 
         employeeService.saveEmployee(employee);

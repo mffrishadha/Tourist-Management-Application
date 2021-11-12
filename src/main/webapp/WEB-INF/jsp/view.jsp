@@ -38,6 +38,7 @@
                     <th scope="col" bgcolor="7DF2F8">EMAIL</th>
                     <th scope="col" bgcolor="7DF2F8">NIC</th>
                     <th scope="col" bgcolor="7DF2F8">PASSPORT NO:</th>
+                    <th scope="col" bgcolor="7DF2F8">USER TYPE</th>
                     <th scope="col" bgcolor="7DF2F8"></th>
                     <th scope="col" bgcolor="7DF2F8"></th>
 			    </thead>
@@ -53,6 +54,7 @@
                     <td>${customer.email}</td>
                     <td>${customer.nic}</td>
                     <td>${customer.passportNo}</td>
+                    <td>${customer.userType}</td>
                     <td><a href="/update-customer/${customer.id}">Update</a></td>
                     <td><a href="/delete-customer/${customer.id}">Remove</a></td>
                   </tr>
@@ -61,7 +63,11 @@
            </table>
 	</div>
 
-
+   <div class="container col-sm-3" >
+       <button class="login100-form-btn">
+         <a href="/create-customer">ADD NEW USER</a>
+        </button>
+   </div>
 
 	<div id="dropDownSelect1"></div>
 

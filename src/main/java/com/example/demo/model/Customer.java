@@ -45,5 +45,8 @@ public class Customer {
     @Column
     private String passportNo;
 
+    @Column
+    private String userType;
+
 
 }

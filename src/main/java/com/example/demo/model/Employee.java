@@ -25,22 +25,25 @@ public class Employee{
     private String username;
 
     @Column
-    private String password;
-
-    @Column
-    private String employeeType;
-
-    @Column
     private String firstname;
 
     @Column
     private String lastname;
 
     @Column
-    private String licenseNo;
+    private String password;
+
+    @Column
+    private String userType;
 
     @Column
     private String phoneNumber;
+
+    @Column
+    private String passport;
+
+    @Column
+    private String nic;
 
 
 }

@@ -32,11 +32,12 @@ public class EmployeeService {
         Employee updatedEmployee = employeeRepository.findById(id).orElse(null);
         updatedEmployee.setUsername(employee.getUsername());
         updatedEmployee.setPassword(employee.getPassword());
-        updatedEmployee.setEmployeeType(employee.getEmployeeType());
+        updatedEmployee.setUserType(employee.getUserType());
         updatedEmployee.setFirstname(employee.getFirstname());
         updatedEmployee.setLastname(employee.getLastname());
-        updatedEmployee.setLicenseNo(employee.getLicenseNo());
         updatedEmployee.setPhoneNumber(employee.getPhoneNumber());
+        updatedEmployee.setPassport(employee.getPassport());
+        updatedEmployee.setNic(employee.getNic());
 
         return employeeRepository.save(updatedEmployee);
 

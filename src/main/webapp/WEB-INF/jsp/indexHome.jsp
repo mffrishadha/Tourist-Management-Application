@@ -35,11 +35,12 @@
 		            </div>
 	  				<nav class="tm-nav">
 						<ul>
-							<li><a href="#" class="active">Home</a></li>
-							<li><a href="#">About</a></li>
-							<li><a href="#">Our Tours</a></li>
-							<li><a href="#">Bookings</a></li>
-							<li><a href="#">Contact</a></li>
+							<li><a href="/home" class="active">Home</a></li>
+							<li><a href="/tours">Our Tours</a></li>
+							<li><a href="/bookings">Bookings</a></li>
+							<li><a href="#">Package Management</a></li>
+							<li><a href="/read-employee">User Management</a></li>
+							<li><a href="/contact">Contact</a></li>
 							<li><a href="/logOut-customer">Logout</a></li>
 						</ul>
 					</nav>		

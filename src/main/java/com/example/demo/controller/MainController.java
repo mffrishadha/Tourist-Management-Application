@@ -21,7 +21,9 @@ public class MainController {
     {
         final  String username =customer.getUsername();
         final String password =customer.getPassword();
-        System.out.println(customer);
+
+
+
         if(username.equals("admin") && password.equals("admin"))
         {
             return "indexHome";
@@ -47,8 +49,32 @@ public class MainController {
 
 
     @GetMapping("/logOut-customer")
-    public String logOutUser() {
-
+    public String logOutUser()
+    {
         return "index";
+    }
+
+    @GetMapping("/home")
+    public String indexHome()
+    {
+        return "indexHome";
+    }
+
+    @GetMapping("/tours")
+    public String ourtour()
+    {
+        return "tours";
+    }
+
+    @GetMapping("/bookings")
+    public String bookings()
+    {
+        return "Bookings";
+    }
+
+    @GetMapping("/contact")
+    public String contactus()
+    {
+        return "contact";
     }
 }

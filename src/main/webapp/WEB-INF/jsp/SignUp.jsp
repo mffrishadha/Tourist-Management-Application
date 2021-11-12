@@ -65,7 +65,9 @@
 						<input class="input100" type="text" name="passportNo" placeholder="Passport No.">
 						<span class="focus-input100"></span>
 					</div>
-					
+
+					 <input type="hidden" id="userType" name="userType" value="Customer">
+
 					<div class="container-login100-form-btn">
 						<button class="login100-form-btn"  type="submit">
 							REGISTER

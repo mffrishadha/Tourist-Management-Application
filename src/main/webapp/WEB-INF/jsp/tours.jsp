@@ -38,11 +38,12 @@ http://www.templatemo.com/tm-475-holiday
 		            </div>
 	  				<nav class="tm-nav">
 						<ul>
-							<li><a href="index_home.html" >Home</a></li>
-							<li><a href="about.html">About</a></li>
-							<li><a href="tours.html" class="active">Our Tours</a></li>
-							<li><a href="tours.html">Bookings</a></li>
-							<li><a href="contact.html">Contact</a></li>
+							<li><a href="/home" >Home</a></li>
+							<li><a href="/tours" class="active">Our Tours</a></li>
+							<li><a href="/bookings" >Bookings</a></li>
+							<li><a href="#">Package Management</a></li>
+							<li><a href="#">User Management</a></li>
+							<li><a href="/contact" >Contact</a></li>
 							<li><a href="/logOut-customer">Logout</a></li>
 						</ul>
 					</nav>		
