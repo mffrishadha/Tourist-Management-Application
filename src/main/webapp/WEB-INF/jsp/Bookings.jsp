@@ -39,10 +39,10 @@ http://www.templatemo.com/tm-475-holiday
 	  				<nav class="tm-nav">
 						<ul>
 							<li><a href="/home" >Home</a></li>
-							<li><a href="/tours">Our Tours</a></li>
+							<li><a href="/tours" >Our Tours</a></li>
 							<li><a href="/bookings" class="active">Bookings</a></li>
 							<li><a href="#">Package Management</a></li>
-							<li><a href="#">User Management</a></li>
+							<li><a href="/read-employee">User Management</a></li>
 							<li><a href="/contact">Contact</a></li>
 							<li><a href="/logOut-customer">Logout</a></li>
 						</ul>
