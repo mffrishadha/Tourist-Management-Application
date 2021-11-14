@@ -29,21 +29,20 @@ http://www.templatemo.com/tm-475-holiday
   	<div class="tm-header">
   		<div class="container-fluid">
   			<div class="row">
-				<div class="col-md-3">
-					
-				</div> 	
-	  			<div class="col-md-9">
+	  			<div class="col-md-12">
 	  				<div class="mobile-menu-icon">
 		              <i class="fa fa-bars"></i>
 		            </div>
 	  				<nav class="tm-nav">
 						<ul>
 							<li><a href="/home" >Home</a></li>
-							<li><a href="/tours" >Our Tours</a></li>
-							<li><a href="/bookings" >Bookings</a></li>
+							<li><a href="/tours">Our Tours</a></li>
+							<li><a href="/bookings">Bookings</a></li>
 							<li><a href="#">Package Management</a></li>
+							<li><a href="/read-hotels">Hotel Details</a></li>
 							<li><a href="/read-employee">User Management</a></li>
 							<li><a href="/contact" class="active">Contact</a></li>
+							<li><a href="/contact">Feed backs</a></li>
 							<li><a href="/logOut-customer">Logout</a></li>
 						</ul>
 					</nav>		
