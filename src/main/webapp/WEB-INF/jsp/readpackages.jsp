@@ -27,26 +27,28 @@
 <body>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 	<div class="container-fluid">
-		<span class="login100-form-title p-b-34">HOTEL DETAILS</span>
+		<span class="login100-form-title p-b-34">PACKAGE DETAILS</span>
 			 <table class="table">
                 <thead >
                     <th scope="col" bgcolor="7DF2F8">ID</th>
-					<th scope="col" bgcolor="7DF2F8">HOTEL NAME</th>
-					<th scope="col" bgcolor="7DF2F8">LOCATION</th>
-                    <th scope="col" bgcolor="7DF2F8">PHONE NO.</th>
+					<th scope="col" bgcolor="7DF2F8">PACKAGE NAME</th>
+					<th scope="col" bgcolor="7DF2F8">PRICE</th>
+                    <th scope="col" bgcolor="7DF2F8">DESCRIPTION</th>
+                    <th scope="col" bgcolor="7DF2F8">DURATION</th>
                     <th scope="col" bgcolor="7DF2F8"></th>
                     <th scope="col" bgcolor="7DF2F8"></th>
 			    </thead>
 
-			<c:forEach var="hotels" items="${hotels}">
+			<c:forEach var="packages" items="${packages}">
 			    <tbody>
                   <tr>
-                    <th scope="row">${hotels.id}</th>
-            		<td>${hotels.name}</td>
-            		<td>${hotels.location}</td>
-                    <td>${hotels.phoneNumber}</td>
-                    <td><a href="/update-hotels/${hotels.id}">Update</a></td>
-                    <td><a href="/delete-hotels/${hotels.id}">Remove</a></td>
+                    <th scope="row">${packages.id}</th>
+            		<td>${packages.packageName}</td>
+            		<td>${packages.price}</td>
+                    <td>${packages.description}</td>
+                    <td>${packages.duration}</td>
+                    <td><a href="/update-packages/${packages.id}">Update</a></td>
+                    <td><a href="/delete-packages/${packages.id}">Remove</a></td>
                   </tr>
                 </tbody>
             </c:forEach>
@@ -55,7 +57,7 @@
 
    <div class="container col-sm-3" >
        <button class="login100-form-btn">
-         <a href="/create-hotels">ADD NEW HOTEL</a>
+         <a href="/create-packages">ADD NEW PACKAGE</a>
         </button>
    </div>
 

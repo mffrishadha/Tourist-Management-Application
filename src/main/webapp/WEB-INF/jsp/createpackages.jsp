@@ -1,6 +1,9 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-	<title></title>
+	<title>Tour Management</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->
 	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
 <!--===============================================================================================-->
@@ -25,39 +28,44 @@
 <!--===============================================================================================-->
 </head>
 <body>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-	<div class="container-fluid">
-		<span class="login100-form-title p-b-34">HOTEL DETAILS</span>
-			 <table class="table">
-                <thead >
-                    <th scope="col" bgcolor="7DF2F8">ID</th>
-					<th scope="col" bgcolor="7DF2F8">HOTEL NAME</th>
-					<th scope="col" bgcolor="7DF2F8">LOCATION</th>
-                    <th scope="col" bgcolor="7DF2F8">PHONE NO.</th>
-                    <th scope="col" bgcolor="7DF2F8"></th>
-                    <th scope="col" bgcolor="7DF2F8"></th>
-			    </thead>
 
-			<c:forEach var="hotels" items="${hotels}">
-			    <tbody>
-                  <tr>
-                    <th scope="row">${hotels.id}</th>
-            		<td>${hotels.name}</td>
-            		<td>${hotels.location}</td>
-                    <td>${hotels.phoneNumber}</td>
-                    <td><a href="/update-hotels/${hotels.id}">Update</a></td>
-                    <td><a href="/delete-hotels/${hotels.id}">Remove</a></td>
-                  </tr>
-                </tbody>
-            </c:forEach>
-           </table>
+	<div class="limiter" align="center">
+
+				<form method="post" class="login100-form validate-form align-top" action="/create-packages">
+					<span class="login100-form-title p-b-34">PACKAGE REGISTRATION</span>
+
+					<div class="wrap-input100 validate-input m-b-20" >
+                         <input class="input100" type="text" name="packageName" placeholder="Package Name">
+                         <span class="focus-input100"></span>
+                    </div>
+
+					<div class="wrap-input100 validate-input m-b-20" >
+                    	<input class="input100" type="text" name="price" placeholder="Price">
+                    	<span class="focus-input100"></span>
+                    </div>
+
+					<div class="wrap-input100 validate-input m-b-20" >
+						<input class="input100" type="text" name="description" placeholder="Description">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input m-b-20" >
+                    	<input class="input100" type="text" name="duration" placeholder="Duration">
+                        <span class="focus-input100"></span>
+                    </div>
+
+					<div class="container-login100-form-btn">
+						<button class="login100-form-btn"  type="submit">
+							REGISTER
+						</button>
+					</div>
+
+
+				</form>
+
 	</div>
 
-   <div class="container col-sm-3" >
-       <button class="login100-form-btn">
-         <a href="/create-hotels">ADD NEW HOTEL</a>
-        </button>
-   </div>
+
 
 	<div id="dropDownSelect1"></div>
 
@@ -84,13 +92,5 @@
 <!--===============================================================================================-->
 	<script src="js/main.js"></script>
 
-
 </body>
-
 </html>
-
-<style>
-div {
-  padding: 25px 25px 25px 25px;
-}
-</style>

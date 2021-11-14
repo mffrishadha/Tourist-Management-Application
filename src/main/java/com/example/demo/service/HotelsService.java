@@ -1,5 +1,6 @@
 package com.example.demo.service;
 
+import com.example.demo.model.Customer;
 import com.example.demo.model.Hotels;
 import com.example.demo.repository.HotelsRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,5 +25,18 @@ public class HotelsService
     }
 
     public Hotels saveHotels(Hotels hotels) { return hotelsRepository.save(hotels); }
+
+    public Hotels updateHotels(int id, Hotels hotels) {
+        Hotels updatedHotels = hotelsRepository.findById(id).orElse(null);
+        updatedHotels.setName(hotels.getName());
+        updatedHotels.setLocation(hotels.getLocation());
+        updatedHotels.setPhoneNumber(hotels.getPhoneNumber());
+
+        return hotelsRepository.save(updatedHotels);
+    }
+
+    public void deleteById(int id) {
+        hotelsRepository.deleteById(id);
+    }
 
 }
