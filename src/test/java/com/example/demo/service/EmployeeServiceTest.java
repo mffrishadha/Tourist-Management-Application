@@ -39,6 +39,14 @@ public class EmployeeServiceTest {
         Assertions.assertEquals("Alex", employee.getFirstname());
     }
 
+    @Test
+    void testUpdateEmployee() {
+        Employee employee = employeeService.findById(1).orElseThrow(EntityNotFoundException::new);
+        employee.setPhoneNumber("0778965478");
+        Employee updatedEmployee = employeeService.updateEmployee(1, employee);
+        Assertions.assertEquals("0778965478", updatedEmployee.getPhoneNumber());
+    }
+
     @AfterAll
     void tearDown() {
         employeeService.deleteById(1);

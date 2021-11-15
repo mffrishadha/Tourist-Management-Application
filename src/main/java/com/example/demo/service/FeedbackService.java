@@ -1,7 +1,5 @@
 package com.example.demo.service;
 
-
-
 import com.example.demo.model.Feedback;
 import com.example.demo.repository.FeedbackRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,6 +27,18 @@ public class FeedbackService {
     public Feedback saveFeedback(Feedback feedback) {
         return feedbackRepository.save(feedback);
     }
+
+    public Feedback updateFeedback(int id, Feedback feedback) {
+        Feedback updatedFeedback = feedbackRepository.findById(id).orElse(null);
+        updatedFeedback.setFeed_back(feedback.getFeed_back());
+
+        return feedbackRepository.save(updatedFeedback);
+    }
+
+    public void deleteById(int id) {
+        feedbackRepository.deleteById(id);
+    }
+
 
 
 }

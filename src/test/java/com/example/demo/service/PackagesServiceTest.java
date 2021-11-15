@@ -1,6 +1,7 @@
 package com.example.demo.service;
 
 
+
 import com.example.demo.model.Packages;
 import org.junit.jupiter.api.*;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -35,6 +36,14 @@ public class PackagesServiceTest {
     void testFindById() {
         Packages packages = packagesService.findById(1).orElseThrow(EntityNotFoundException::new);
         Assertions.assertEquals("KRMS", packages.getPackageName());
+    }
+
+    @Test
+    void testUpdateEmployee() {
+        Packages packages  = packagesService.findById(1).orElseThrow(EntityNotFoundException::new);
+        packages.setDuration("5hr");
+        Packages updatedPackages = packagesService.updatePackages(1, packages);
+        Assertions.assertEquals("5hr", updatedPackages.getDuration());
     }
 
     @AfterAll

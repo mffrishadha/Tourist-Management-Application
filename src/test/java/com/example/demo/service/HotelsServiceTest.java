@@ -1,6 +1,7 @@
 package com.example.demo.service;
 
 
+
 import com.example.demo.model.Hotels;
 import org.junit.jupiter.api.*;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -34,6 +35,14 @@ public class HotelsServiceTest {
     void testFindById() {
         Hotels hotels = hotelsService.findById(1).orElseThrow(EntityNotFoundException::new);
         Assertions.assertEquals("KRMS", hotels.getName());
+    }
+
+    @Test
+    void testUpdateEmployee() {
+        Hotels hotels = hotelsService.findById(1).orElseThrow(EntityNotFoundException::new);
+        hotels.setPhoneNumber("0778456478");
+        Hotels updatedEmployee = hotelsService.updateHotels(1, hotels);
+        Assertions.assertEquals("0778456478", updatedEmployee.getPhoneNumber());
     }
 
     @AfterAll

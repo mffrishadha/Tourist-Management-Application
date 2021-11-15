@@ -47,7 +47,7 @@ public class CustomerService {
 
     public Customer findByUsernameAndPassword(String username, String password){
       return  customerRepository.findByUsernameAndPassword(username,password).orElse(null);
-    };
+    }
 
 }
 

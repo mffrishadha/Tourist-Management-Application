@@ -37,5 +37,12 @@ public class FeedbackServiceTest {
     }
 
 
+
+    @AfterAll
+    void tearDown() {
+        feedbackService.deleteById(1);
+    }
+
+
 }
 

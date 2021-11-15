@@ -1,10 +1,12 @@
 package com.example.demo.service;
 
 import com.example.demo.model.Customer;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.TestInstance;
+
+import org.junit.jupiter.api.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+
+import javax.persistence.EntityNotFoundException;
 
 @SpringBootTest
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
@@ -26,6 +28,29 @@ public class CustomerServiceTest {
         customerService.saveCustomer(customer);
     }
 
+    @Test
+    void testFindAll() {
+        Assertions.assertFalse(customerService.findAll().isEmpty());
+    }
+
+    @Test
+    void testFindById() {
+        Customer customer = customerService.findById(1).orElseThrow(EntityNotFoundException::new);
+        Assertions.assertEquals("John", customer.getFirstname());
+    }
+
+    @Test
+    void testUpdateEmployee() {
+        Customer customer  = customerService.findById(1).orElseThrow(EntityNotFoundException::new);
+        customer.setPhoneNo("0778954123");
+        Customer updatedPackages = customerService.updateCustomer(1, customer);
+        Assertions.assertEquals("0778954123", updatedPackages.getPhoneNo());
+    }
+
+    @AfterAll
+    void tearDown() {
+        customerService.deleteById(1);
+    }
 
 
 }
