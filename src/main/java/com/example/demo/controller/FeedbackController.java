@@ -19,6 +19,12 @@ public class FeedbackController {
     private FeedbackService feedbackService;
 
 
+    @GetMapping("/read-feedback")
+    public String showReadFeedbackPage(Model model) {
+        model.addAttribute("feedbacks", feedbackService.findAll());
+        return "readfeedback";
+    }
+
     @GetMapping("/create-feedback")
     public String showCreateFeedbackPage(Model model) {
         model.addAttribute("command", new Feedback());
