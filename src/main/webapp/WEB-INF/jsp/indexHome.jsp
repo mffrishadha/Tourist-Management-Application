@@ -39,7 +39,7 @@
 							<li><a href="/read-hotels">Hotel Details</a></li>
 							<li><a href="/read-employee">User Management</a></li>
 							<li><a href="/contact">Contact</a></li>
-							<li><a href="/contact">Feed backs</a></li>
+							<li><a href="/read-feedback">Feedbacks</a></li>
 							<li><a href="/logOut-customer">Logout</a></li>
 						</ul>
 					</nav>		
