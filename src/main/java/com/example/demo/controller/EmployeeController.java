@@ -1,5 +1,5 @@
 package com.example.demo.controller;
-import com.example.demo.model.Customer;
+
 import com.example.demo.model.Employee;
 import com.example.demo.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,7 +30,6 @@ public class EmployeeController {
         employeeService.saveEmployee(employee);
         return "redirect:/read-employee";
     }
-
 
 
     @GetMapping("/update-employee/{id}")

@@ -35,8 +35,8 @@
 							<li><a href="/home" class="active">Home</a></li>
 							<li><a href="/tours">Our Tours</a></li>
 							<li><a href="/bookings">Bookings</a></li>
-							<li><a href="#">Package Management</a></li>
-							<li><a href="/read-hotels">Hotel Details</a></li>
+							<li><a href="read-packages">Package Management</a></li>
+							<li><a href="/read-hotels">Hotel Management</a></li>
 							<li><a href="/read-employee">User Management</a></li>
 							<li><a href="/contact">Contact</a></li>
 							<li><a href="/read-feedback">Feedbacks</a></li>
@@ -63,7 +63,7 @@
 		    </li>
 		    <li>
 			    <div class="tm-banner-inner">
-					<h1 class="tm-banner-title">Lorem <span class="tm-yellow-text">Ipsum</span> Dolor</h1>
+					<h1 class="tm-banner-title">Colourful <span class="tm-yellow-text">Memories</span> With</h1>
 					<p class="tm-banner-subtitle">Wonderful Destinations</p>
 					<a href="#more" class="tm-banner-link">Learn More</a>	
 				</div>
@@ -71,8 +71,8 @@
 		    </li>
 		    <li>
 			    <div class="tm-banner-inner">
-					<h1 class="tm-banner-title">Proin <span class="tm-yellow-text">Gravida</span> Nibhvell</h1>
-					<p class="tm-banner-subtitle">Velit Auctor</p>
+					<h1 class="tm-banner-title">Tour  <span class="tm-yellow-text">Planning</span> Experts</h1>
+					<p class="tm-banner-subtitle">Interesting Packages</p>
 					<a href="#more" class="tm-banner-link">Learn More</a>	
 				</div>
 		      <img src="/img/banner-3.jpg" alt="Image" />
@@ -84,132 +84,36 @@
 	<!-- gray bg -->	
 	<section class="container tm-home-section-1" id="more">
 		<div class="row">
-			<div class="col-lg-4 col-md-4 col-sm-6">
-				<!-- Nav tabs -->
-				<div class="tm-home-box-1">
-					<ul class="nav nav-tabs tm-white-bg" role="tablist" id="hotelCarTabs">
-					    <li role="presentation" class="active">
-					    	<a href="#hotel" aria-controls="hotel" role="tab" data-toggle="tab">Hotel</a>
-					    </li>
-					    <li role="presentation">
-					    	<a href="#car" aria-controls="car" role="tab" data-toggle="tab">Car Rental</a>
-					    </li>
-					</ul>
 
-					<!-- Tab panes -->
-					<div class="tab-content">
-					    <div role="tabpanel" class="tab-pane fade in active tm-white-bg" id="hotel">
-					    	<div class="tm-search-box effect2">
-								<form action="#" method="post" class="hotel-search-form">
-									<div class="tm-form-inner">
-										<div class="form-group">
-							            	 <select class="form-control">
-							            	 	<option value="">-- Select Hotel -- </option>
-							            	 	<option value="shangrila">Shangri-La</option>
-												<option value="chatrium">Chatrium</option>
-												<option value="fourseasons">Four Seasons</option>
-												<option value="hilton">Hilton</option>
-											</select> 
-							          	</div>
-							          	<div class="form-group">
-							                <div class='input-group date' id='datetimepicker1'>
-							                    <input type='text' class="form-control" placeholder="Check-in Date" />
-							                    <span class="input-group-addon">
-							                        <span class="fa fa-calendar"></span>
-							                    </span>
-							                </div>
-							            </div>
-							          	<div class="form-group">
-							                <div class='input-group date' id='datetimepicker2'>
-							                    <input type='text' class="form-control" placeholder="Check-out Date" />
-							                    <span class="input-group-addon">
-							                        <span class="fa fa-calendar"></span>
-							                    </span>
-							                </div>
-							            </div>
-							            <div class="form-group margin-bottom-0">
-							                <select class="form-control">
-							            	 	<option value="">-- Guests -- </option>
-							            	 	<option value="1">1</option>
-												<option value="2">2</option>
-												<option value="3">3</option>
-												<option value="4">4</option>
-												<option value="5p">5+</option>
-											</select> 
-							            </div>
-									</div>							
-						            <div class="form-group tm-yellow-gradient-bg text-center">
-						            	<button type="submit" name="submit" class="tm-yellow-btn">Check Now</button>
-						            </div>  
-								</form>
-							</div>
-					    </div>
-					    <div role="tabpanel" class="tab-pane fade tm-white-bg" id="car">
-							<div class="tm-search-box effect2">
-								<form action="#" method="post" class="hotel-search-form">
-									<div class="tm-form-inner">
-										<div class="form-group">
-							            	 <select class="form-control">
-							            	 	<option value="">-- Select Model -- </option>
-							            	 	<option value="shangrila">BMW</option>
-												<option value="chatrium">Mercedes-Benz</option>
-												<option value="fourseasons">Toyota</option>
-												<option value="hilton">Honda</option>
-											</select> 
-							          	</div>
-							          	<div class="form-group">
-							                <div class='input-group date-time' id='datetimepicker3'>
-							                    <input type='text' class="form-control" placeholder="Pickup Date" />
-							                    <span class="input-group-addon">
-							                        <span class="fa fa-calendar"></span>
-							                    </span>
-							                </div>
-							            </div>
-							          	<div class="form-group">
-							                <div class='input-group date-time' id='datetimepicker4'>
-							                    <input type='text' class="form-control" placeholder="Return Date" />
-							                    <span class="input-group-addon">
-							                        <span class="fa fa-calendar"></span>
-							                    </span>
-							                </div>
-							            </div>
-							            <div class="form-group">
-							            	 <select class="form-control">
-							            	 	<option value="">-- Options -- </option>
-							            	 	<option value="">Child Seat</option>
-												<option value="">GPS Navigator</option>
-												<option value="">Insurance</option>
-											</select> 
-							          	</div>							           
-									</div>							
-						            <div class="form-group tm-yellow-gradient-bg text-center">
-						            	<button type="submit" name="submit" class="tm-yellow-btn">Check Now</button>
-						            </div>  
-								</form>
-							</div>
-					    </div>				    
-					</div>
-				</div>								
-			</div>
-
+            <div class="col-lg-4 col-md-4 col-sm-6">
+            				<div class="tm-home-box-1 tm-home-box-1-2 tm-home-box-1-center">
+            					<img src="img/index-01.jpg" alt="image" class="img-responsive">
+            					<a href="#">
+            						<div class="tm-green-gradient-bg tm-city-price-container">
+            							<span>Colombo</span>
+            							<span>$ 50.00 </span>
+            						</div>
+            					</a>
+            				</div>
+            </div>
 			<div class="col-lg-4 col-md-4 col-sm-6">
 				<div class="tm-home-box-1 tm-home-box-1-2 tm-home-box-1-center">
-					<img src="img/index-01.jpg" alt="image" class="img-responsive">
+					<img src="img/index-02.jpg" alt="image" class="img-responsive">
 					<a href="#">
 						<div class="tm-green-gradient-bg tm-city-price-container">
-							<span>New York</span>
-							<span>$6,600</span>
+							<span>Nuwara Eliya</span>
+							<span>$ 70.00</span>
 						</div>	
 					</a>			
 				</div>				
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-6">
 				<div class="tm-home-box-1 tm-home-box-1-2 tm-home-box-1-right">
-					<img src="/img/index-02.jpg" alt="image" class="img-responsive">
+					<img src="/img/index-01.jpg" alt="image" class="img-responsive">
 					<a href="#">
 						<div class="tm-red-gradient-bg tm-city-price-container">
-							<span>Paris</span>
-							<span>$4,200</span>
+							<span>Kandy</span>
+							<span>$ 40.00</span>
 						</div>	
 					</a>					
 				</div>				
@@ -220,7 +124,7 @@
 			<div class="row">				
 				<div class="tm-section-header">
 					<div class="col-lg-3 col-md-3 col-sm-3"><hr></div>
-					<div class="col-lg-6 col-md-6 col-sm-6"><h2 class="tm-section-title">Lorem Ipsum Dolor</h2></div>
+					<div class="col-lg-6 col-md-6 col-sm-6"><h2 class="tm-section-title">Top experiences</h2></div>
 					<div class="col-lg-3 col-md-3 col-sm-3"><hr></div>	
 				</div>
 			</div>
@@ -228,8 +132,8 @@
 				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
 					<div class="tm-home-box-2">						
 						<img src="/img/index-03.jpg" alt="image" class="img-responsive">
-						<h3>Proin Gravida Nibhvel Lorem Quis Bind</h3>
-						<p class="tm-date">28 March 2016</p>
+						<h3>Whale watching</h3>
+						<p class="tm-date">28 March 2021</p>
 						<div class="tm-home-box-2-container">
 							<a href="#" class="tm-home-box-2-link"><i class="fa fa-heart tm-home-box-2-icon border-right"></i></a>
 							<a href="#" class="tm-home-box-2-link"><span class="tm-home-box-2-description">Travel</span></a>
@@ -240,8 +144,8 @@
 				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
 					<div class="tm-home-box-2">						
 					    <img src="/img/index-04.jpg" alt="image" class="img-responsive">
-						<h3>Proin Gravida Nibhvel Lorem Quis Bind</h3>
-						<p class="tm-date">26 March 2016</p>
+						<h3>Sand Bar</h3>
+						<p class="tm-date">26 March 2021</p>
 						<div class="tm-home-box-2-container">
 							<a href="#" class="tm-home-box-2-link"><i class="fa fa-heart tm-home-box-2-icon border-right"></i></a>
 							<a href="#" class="tm-home-box-2-link"><span class="tm-home-box-2-description">Travel</span></a>
@@ -252,8 +156,8 @@
 				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
 					<div class="tm-home-box-2">						
 					    <img src="/img/index-05.jpg" alt="image" class="img-responsive">
-						<h3>Proin Gravida Nibhvel Lorem Quis Bind</h3>
-						<p class="tm-date">24 March 2016</p>
+						<h3>Hill country</h3>
+						<p class="tm-date">24 March 2021</p>
 						<div class="tm-home-box-2-container">
 							<a href="#" class="tm-home-box-2-link"><i class="fa fa-heart tm-home-box-2-icon border-right"></i></a>
 							<a href="#" class="tm-home-box-2-link"><span class="tm-home-box-2-description">Travel</span></a>
@@ -264,8 +168,8 @@
 				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
 					<div class="tm-home-box-2 tm-home-box-2-right">						
 					    <img src="/img/index-06.jpg" alt="image" class="img-responsive">
-						<h3>Proin Gravida Nibhvel Lorem Quis Bind</h3>
-						<p class="tm-date">22 March 2016</p>
+						<h3>Local Wildlife</h3>
+						<p class="tm-date">22 March 2021</p>
 						<div class="tm-home-box-2-container">
 							<a href="#" class="tm-home-box-2-link"><i class="fa fa-heart tm-home-box-2-icon border-right"></i></a>
 							<a href="#" class="tm-home-box-2-link"><span class="tm-home-box-2-description">Travel</span></a>
@@ -297,7 +201,7 @@
 							<img src="/img/index-07.jpg" alt="image" class="img-responsive">
 						</div>						
 						<div class="tm-home-box-3-info">
-							<p class="tm-home-box-3-description">Proin gravida nibhvell velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum</p>
+							<p class="tm-home-box-3-description">When these boats of nature is tide, these free sailing sun-kissed branches, come to rest upon  pebbles/golden sands, they sit as kings adoring the seawater view.</p>
 					        <div class="tm-home-box-2-container">
 							<a href="#" class="tm-home-box-2-link"><i class="fa fa-heart tm-home-box-2-icon border-right"></i></a>
 							<a href="#" class="tm-home-box-2-link"><span class="tm-home-box-2-description box-3">Travel</span></a>
@@ -312,7 +216,8 @@
 							<img src="/img/index-08.jpg" alt="image" class="img-responsive">
 						</div>						
 						<div class="tm-home-box-3-info">
-							<p class="tm-home-box-3-description">Proin gravida nibhvell velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum</p>
+							<p class="tm-home-box-3-description">Everything in nature invites us constantly to be what we are.
+							Those who contemplate the beauty of the earth find reserves of strength that will endure as long as life lasts. </p>
 					        <div class="tm-home-box-2-container">
 							<a href="#" class="tm-home-box-2-link"><i class="fa fa-heart tm-home-box-2-icon border-right"></i></a>
 							<a href="#" class="tm-home-box-2-link"><span class="tm-home-box-2-description box-3">Travel</span></a>
@@ -327,7 +232,8 @@
 							<img src="/img/index-09.jpg" alt="image" class="img-responsive">
 						</div>						
 						<div class="tm-home-box-3-info">
-							<p class="tm-home-box-3-description">Proin gravida nibhvell velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum</p>
+							<p class="tm-home-box-3-description">The real voyage of discovery consists not in seeking new landscapes, but in having new eyes.
+							 Between every two pines there is a doorway to a new world. </p>
 					        <div class="tm-home-box-2-container">
 							<a href="#" class="tm-home-box-2-link"><i class="fa fa-heart tm-home-box-2-icon border-right"></i></a>
 							<a href="#" class="tm-home-box-2-link"><span class="tm-home-box-2-description box-3">Travel</span></a>
@@ -342,7 +248,8 @@
 							<img src="/img/index-10.jpg" alt="image" class="img-responsive">
 						</div>						
 						<div class="tm-home-box-3-info">
-							<p class="tm-home-box-3-description">Proin gravida nibhvell velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum</p>
+							<p class="tm-home-box-3-description">Nature is an infinite sphere of which the center is everywhere and the circumference nowhere.
+							 The beauty of the natural world lies in the details. </p>
 					        <div class="tm-home-box-2-container">
 							<a href="#" class="tm-home-box-2-link"><i class="fa fa-heart tm-home-box-2-icon border-right"></i></a>
 							<a href="#" class="tm-home-box-2-link"><span class="tm-home-box-2-description box-3">Travel</span></a>
@@ -357,7 +264,7 @@
 	<footer class="tm-black-bg">
 		<div class="container">
 			<div class="row">
-				<p class="tm-copyright-text">Copyright &copy; 2021 Find Your Tour Software by ARKS Software Solutions </p>
+				<p class="tm-copyright-text">Copyright &copy; 2021 Find Your Tour Software by ARKS Solutions.  </p>
 			</div>
 		</div>		
 	</footer>

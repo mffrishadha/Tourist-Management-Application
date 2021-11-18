@@ -78,11 +78,11 @@ http://www.templatemo.com/tm-475-holiday
 					<li>
 						<img src="img/world-map.png" alt="image" class="contact-image" />
 						<div class="contact-text">
-							<h2 class="slider-title">Lorem Isum Dolor</h2>
-							<h3 class="slider-subtitle">Gravida nibh vel velit auctor aliquet enean sollicitudin lorem quis auctor, nisi elit consequat ipsum</h3>
-							<p class="slider-description">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <br><br>
-                            Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris gestas quam, ut aliquam massa nisi.</p>
-							<div class="slider-social">
+							<h2 class="slider-title">Welcome To Holiday</h2>
+                            <h3 class="slider-subtitle">Plan your perfect tours with our expert consultants</h3>
+                            p class="slider-description">Holiday is A vacation is what you take when you can no longer take what you have been taking.  <br><br>
+                               Join our hands to make your travel destinations perfect. View the tour packages planned by our experts and place your bookings to create awesome memories in best destinations. </p>
+                            <div class="slider-social">
 								<a href="#" class="tm-social-icon"><i class="fa fa-twitter"></i></a>
 								<a href="#" class="tm-social-icon"><i class="fa fa-facebook"></i></a>
 								<a href="#" class="tm-social-icon"><i class="fa fa-pinterest"></i></a>
@@ -142,7 +142,7 @@ http://www.templatemo.com/tm-475-holiday
 	<footer class="tm-black-bg">
 		<div class="container">
 			<div class="row">
-				<p class="tm-copyright-text">Copyright &copy; 2021 Find Your Tour Software by ..... </p>
+				<p class="tm-copyright-text">Copyright &copy; 2021 Find Your Tour Software by ARKS Solutions. </p>
 			</div>
 		</div>		
 	</footer>

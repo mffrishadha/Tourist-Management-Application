@@ -77,10 +77,10 @@ http://www.templatemo.com/tm-475-holiday
 					<li>
 						<img src="img/world-map.png" alt="image" class="contact-image" />
 						<div class="contact-text">
-							<h2 class="slider-title">Lorem Isum Dolor</h2>
-							<h3 class="slider-subtitle">Gravida nibh vel velit auctor aliquet enean sollicitudin lorem quis auctor, nisi elit consequat ipsum</h3>
-							<p class="slider-description">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <br><br>
-                            Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris gestas quam, ut aliquam massa nisi.</p>
+							<h2 class="slider-title">Reach us to:</h2>
+							<h3 class="slider-subtitle">Plan your tour</h3>
+							<p class="slider-description"> Browse our packages to choose the best destinations around the country. place the booking via online. <br><br>
+                            We offer the best services for all bookings. Feel free to contact the administration through the following contact details.</p>
 							<div class="slider-social">
 								<a href="#" class="tm-social-icon"><i class="fa fa-twitter"></i></a>
 								<a href="#" class="tm-social-icon"><i class="fa fa-facebook"></i></a>
@@ -106,7 +106,7 @@ http://www.templatemo.com/tm-475-holiday
 			</div>
 			<div class="row">
 				<!-- contact form -->
-				<form action="#" method="post" class="tm-contact-form">
+
 					<div class="col-lg-6 col-md-6">
 						<div id="google-map"></div>
 						<div class="contact-social">
@@ -116,32 +116,25 @@ http://www.templatemo.com/tm-475-holiday
 				      		<a href="#" class="tm-social-icon tm-social-instagram"><i class="fa fa-instagram"></i></a>
 				      		<a href="#" class="tm-social-icon tm-social-google-plus"><i class="fa fa-google-plus"></i></a>
 						</div>
-					</div> 
-					<div class="col-lg-6 col-md-6 tm-contact-form-input">
-						<div class="form-group">
-							<input type="text" id="contact_name" class="form-control" placeholder="NAME" />
-						</div>
-						<div class="form-group">
-							<input type="email" id="contact_email" class="form-control" placeholder="EMAIL" />
-						</div>
-						<div class="form-group">
-							<input type="text" id="contact_subject" class="form-control" placeholder="SUBJECT" />
-						</div>
-						<div class="form-group">
-							<textarea id="contact_message" class="form-control" rows="6" placeholder="MESSAGE"></textarea>
-						</div>
-						<div class="form-group">
-							<button class="tm-submit-btn" type="submit" name="submit">Submit now</button> 
-						</div>               
 					</div>
-				</form>
-			</div>			
+						<div class="col-lg-6 col-md-6">
+                    		<div class="contact-text">
+                                     <h2 class="slider-title">0777586321</h2>
+                                     <h2 class="slider-title">0774589658</h2>
+                                     <h3 class="slider-subtitle">Branches:</h3>
+                                     <p class="slider-description"> Colombo: 15/A1, Baseline road, Colombo 09.<br><br>
+                                      Kandy: A1/ 12, Main street, Kandy.</p>
+
+
+                        </div>
+
+			        </div>
 		</div>
 	</section>
 	<footer class="tm-black-bg">
 		<div class="container">
 			<div class="row">
-				<p class="tm-copyright-text">Copyright &copy; 2021 Find Your Tour Software by ..... </p>
+				<p class="tm-copyright-text">Copyright &copy; 2021 Find Your Tour Software by ARKS Solutions.  </p>
 			</div>
 		</div>		
 	</footer>

@@ -65,19 +65,19 @@ http://www.templatemo.com/tm-475-holiday
 		      <img src="img/banner-2.jpg" />
 		    </li>
 		    <li>
-			    <div class="tm-banner-inner">
-					<h1 class="tm-banner-title">Lorem <span class="tm-yellow-text">Ipsum</span> Dolor</h1>
-					<p class="tm-banner-subtitle">Wonderful Destinations</p>
-					<a href="#more" class="tm-banner-link">Learn More</a>	
-				</div>
-		      <img src="img/banner-3.jpg" />
-		    </li>
-		    <li>
-			    <div class="tm-banner-inner">
-					<h1 class="tm-banner-title">Proin <span class="tm-yellow-text">Gravida</span> Nibhvell</h1>
-					<p class="tm-banner-subtitle">Velit Auctor</p>
-					<a href="#more" class="tm-banner-link">Learn More</a>	
-				</div>
+			      <div class="tm-banner-inner">
+               					<h1 class="tm-banner-title">Colourful <span class="tm-yellow-text">Memories</span> With</h1>
+               					<p class="tm-banner-subtitle">Wonderful Destinations</p>
+               					<a href="#more" class="tm-banner-link">Learn More</a>
+               				</div>
+               		      <img src="/img/banner-2.jpg" alt="Image" />
+               		    </li>
+               		    <li>
+               			    <div class="tm-banner-inner">
+               					<h1 class="tm-banner-title">Tour  <span class="tm-yellow-text">Planning</span> Experts</h1>
+               					<p class="tm-banner-subtitle">Interesting Packages</p>
+               					<a href="#more" class="tm-banner-link">Learn More</a>
+               	</div>
 		      <img src="img/banner-1.jpg" />
 		    </li>
 		  </ul>
@@ -86,122 +86,14 @@ http://www.templatemo.com/tm-475-holiday
 
 	<!-- gray bg -->	
 	<section class="container tm-home-section-1" id="more">
-		<div class="row">
-			<div class="col-lg-4 col-md-4 col-sm-6">
-				<!-- Nav tabs -->
-				<div class="tm-home-box-1">
-					<ul class="nav nav-tabs tm-white-bg" role="tablist" id="hotelCarTabs">
-					    <li role="presentation" class="active">
-					    	<a href="#hotel" aria-controls="hotel" role="tab" data-toggle="tab">Hotel</a>
-					    </li>
-					    <li role="presentation">
-					    	<a href="#car" aria-controls="car" role="tab" data-toggle="tab">Car Rental</a>
-					    </li>
-					</ul>
-
-					<!-- Tab panes -->
-					<div class="tab-content">
-					    <div role="tabpanel" class="tab-pane fade in active tm-white-bg" id="hotel">
-					    	<div class="tm-search-box effect2">
-								<form action="#" method="post" class="hotel-search-form">
-									<div class="tm-form-inner">
-										<div class="form-group">
-							            	 <select class="form-control">
-							            	 	<option value="">-- Select Hotel -- </option>
-							            	 	<option value="shangrila">Shangri-La</option>
-												<option value="chatrium">Chatrium</option>
-												<option value="fourseasons">Four Seasons</option>
-												<option value="hilton">Hilton</option>
-											</select> 
-							          	</div>
-							          	<div class="form-group">
-							                <div class='input-group date' id='datetimepicker1'>
-							                    <input type='text' class="form-control" placeholder="Check-in Date" />
-							                    <span class="input-group-addon">
-							                        <span class="fa fa-calendar"></span>
-							                    </span>
-							                </div>
-							            </div>
-							          	<div class="form-group">
-							                <div class='input-group date' id='datetimepicker2'>
-							                    <input type='text' class="form-control" placeholder="Check-out Date" />
-							                    <span class="input-group-addon">
-							                        <span class="fa fa-calendar"></span>
-							                    </span>
-							                </div>
-							            </div>
-							            <div class="form-group margin-bottom-0">
-							                <select class="form-control">
-							            	 	<option value="">-- Guests -- </option>
-							            	 	<option value="1">1</option>
-												<option value="2">2</option>
-												<option value="3">3</option>
-												<option value="4">4</option>
-												<option value="5p">5+</option>
-											</select> 
-							            </div>
-									</div>							
-						            <div class="form-group tm-yellow-gradient-bg text-center">
-						            	<button type="submit" name="submit" class="tm-yellow-btn">Check Now</button>
-						            </div>  
-								</form>
-							</div>
-					    </div>
-					    <div role="tabpanel" class="tab-pane fade tm-white-bg" id="car">
-							<div class="tm-search-box effect2">
-								<form action="#" method="post" class="hotel-search-form">
-									<div class="tm-form-inner">
-										<div class="form-group">
-							            	 <select class="form-control">
-							            	 	<option value="">-- Select Model -- </option>
-							            	 	<option value="shangrila">BMW</option>
-												<option value="chatrium">Mercedes-Benz</option>
-												<option value="fourseasons">Toyota</option>
-												<option value="hilton">Honda</option>
-											</select> 
-							          	</div>
-							          	<div class="form-group">
-							                <div class='input-group date-time' id='datetimepicker3'>
-							                    <input type='text' class="form-control" placeholder="Pickup Date" />
-							                    <span class="input-group-addon">
-							                        <span class="fa fa-calendar"></span>
-							                    </span>
-							                </div>
-							            </div>
-							          	<div class="form-group">
-							                <div class='input-group date-time' id='datetimepicker4'>
-							                    <input type='text' class="form-control" placeholder="Return Date" />
-							                    <span class="input-group-addon">
-							                        <span class="fa fa-calendar"></span>
-							                    </span>
-							                </div>
-							            </div>	
-							            <div class="form-group">
-							            	 <select class="form-control">
-							            	 	<option value="">-- Options -- </option>
-							            	 	<option value="">Child Seat</option>
-												<option value="">GPS Navigator</option>
-												<option value="">Insurance</option>
-											</select> 
-							          	</div>						           
-									</div>							
-						            <div class="form-group tm-yellow-gradient-bg text-center">
-						            	<button type="submit" name="submit" class="tm-yellow-btn">Check Now</button>
-						            </div>  
-								</form>
-							</div>
-					    </div>				    
-					</div>
-				</div>								
-			</div>
-
+         <div class="row">
 			<div class="col-lg-4 col-md-4 col-sm-6">
 				<div class="tm-home-box-1 tm-home-box-1-2 tm-home-box-1-center">
 					<img src="img/index-01.jpg" alt="image" class="img-responsive">
 					<a href="#">
 						<div class="tm-green-gradient-bg tm-city-price-container">
-							<span>New York</span>
-							<span>$6,600</span>
+							<span>Kandy</span>
+							<span>$ 40.00</span>
 						</div>	
 					</a>			
 				</div>				
@@ -211,14 +103,26 @@ http://www.templatemo.com/tm-475-holiday
 					<img src="img/index-02.jpg" alt="image" class="img-responsive">
 					<a href="#">
 						<div class="tm-red-gradient-bg tm-city-price-container">
-							<span>Paris</span>
-							<span>$4,200</span>
+							<span>Galle</span>
+							<span>$ 55.00</span>
 						</div>	
 					</a>					
 				</div>				
 			</div>
-		</div>
-	
+
+
+		<div class="col-lg-4 col-md-4 col-sm-6">
+    				<div class="tm-home-box-1 tm-home-box-1-2 tm-home-box-1-center">
+    					<img src="img/index-01.jpg" alt="image" class="img-responsive">
+    					<a href="#">
+    						<div class="tm-green-gradient-bg tm-city-price-container">
+    							<span>Colombo</span>
+    							<span>$ 50.00</span>
+    						</div>
+    					</a>
+    				</div>
+    			</div>
+    	</div>
 		<div class="section-margin-top">
 			<div class="row">				
 				<div class="tm-section-header">
@@ -233,11 +137,11 @@ http://www.templatemo.com/tm-475-holiday
 						<img src="img/tours-03.jpg" alt="image" class="img-responsive">
 						<div class="tm-tours-box-1-info">
 							<div class="tm-tours-box-1-info-left">
-								<p class="text-uppercase margin-bottom-20">Proin Gravida Nibhvel Lorem Quis Bind</p>	
-								<p class="gray-text">28 March 2084</p>
+								<p class="text-uppercase margin-bottom-20">Hill country</p>
+								<p class="gray-text">28 MAY 2021</p>
 							</div>
 							<div class="tm-tours-box-1-info-right">
-								<p class="gray-text tours-1-description">Lorem quis bibendum auctor, nisi elit consequat ipsum, sec sagittis sem nibh id elit.</p>	
+								<p class="gray-text tours-1-description">The wonderful places, mountain ranges, plains and waterfalls etc</p>
 							</div>							
 						</div>
 						<div class="tm-tours-box-1-link">
@@ -245,21 +149,22 @@ http://www.templatemo.com/tm-475-holiday
 								Duration: 8 days
 							</div>
 							<a href="#" class="tm-tours-box-1-link-right">
-								$2,200								
+								$ 50.00
 							</a>							
 						</div>
 					</div>					
 				</div>
+
 				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 					<div class="tm-tours-box-1">
 						<img src="img/tours-04.jpg" alt="image" class="img-responsive">
 						<div class="tm-tours-box-1-info">
 							<div class="tm-tours-box-1-info-left">
-								<p class="text-uppercase margin-bottom-20">Proin Gravida Nibhvel Lorem Quis Bind</p>	
+								<p class="text-uppercase margin-bottom-20">Beaches</p>
 								<p class="gray-text">26 March 2084</p>
 							</div>
 							<div class="tm-tours-box-1-info-right">
-								<p class="gray-text tours-1-description">Lorem quis bibendum auctor, nisi elit consequat ipsum, sec sagittis sem nibh id elit.</p>	
+								<p class="gray-text tours-1-description">Sand bar, Beach resorts, Whale watching, Boat ride, Dolphin View</p>
 							</div>							
 						</div>
 						<div class="tm-tours-box-1-link">
@@ -267,7 +172,7 @@ http://www.templatemo.com/tm-475-holiday
 								Duration: 9 days
 							</div>
 							<a href="#" class="tm-tours-box-1-link-right">
-								$1,800								
+								$ 88.00
 							</a>							
 						</div>
 					</div>					
@@ -277,11 +182,11 @@ http://www.templatemo.com/tm-475-holiday
 						<img src="img/tours-05.jpg" alt="image" class="img-responsive">
 						<div class="tm-tours-box-1-info">
 							<div class="tm-tours-box-1-info-left">
-								<p class="text-uppercase margin-bottom-20">Proin Gravida Nibhvel Lorem Quis Bind</p>	
+								<p class="text-uppercase margin-bottom-20">Wildlife</p>
 								<p class="gray-text">24 March 2084</p>
 							</div>
 							<div class="tm-tours-box-1-info-right">
-								<p class="gray-text tours-1-description">Lorem quis bibendum auctor, nisi elit consequat ipsum, sec sagittis sem nibh id elit.</p>	
+								<p class="gray-text tours-1-description">Rain forests, mountain ranges, hiking, zoo, lakes </p>
 							</div>							
 						</div>
 						<div class="tm-tours-box-1-link">
@@ -289,7 +194,7 @@ http://www.templatemo.com/tm-475-holiday
 								Duration: 8 days
 							</div>
 							<a href="#" class="tm-tours-box-1-link-right">
-								$1,600								
+								$ 20.00
 							</a>							
 						</div>
 					</div>					
@@ -299,11 +204,11 @@ http://www.templatemo.com/tm-475-holiday
 						<img src="img/tours-06.jpg" alt="image" class="img-responsive">
 						<div class="tm-tours-box-1-info">
 							<div class="tm-tours-box-1-info-left">
-								<p class="text-uppercase margin-bottom-20">Proin Gravida Nibhvel Lorem Quis Bind</p>	
+								<p class="text-uppercase margin-bottom-20">Cultural places</p>
 								<p class="gray-text">22 March 2084</p>
 							</div>
 							<div class="tm-tours-box-1-info-right">
-								<p class="gray-text tours-1-description">Lorem quis bibendum auctor, nisi elit consequat ipsum, sec sagittis sem nibh id elit.</p>	
+								<p class="gray-text tours-1-description">Temples, Kovils, Sacred places, Ancient kingdoms</p>
 							</div>							
 						</div>
 						<div class="tm-tours-box-1-link">
@@ -311,7 +216,7 @@ http://www.templatemo.com/tm-475-holiday
 								Duration: 5 days
 							</div>
 							<a href="#" class="tm-tours-box-1-link-right">
-								$1,200								
+								$ 10.00
 							</a>							
 						</div>
 					</div>					
@@ -335,9 +240,9 @@ http://www.templatemo.com/tm-475-holiday
 					<div class="tm-tours-box-2">						
 						<img src="img/index-03.jpg" alt="image" class="img-responsive">
 						<div class="tm-tours-box-2-info">
-							<h3 class="margin-bottom-15">Proin Gravida Nibhvel Lorem Quis Bind</h3>
+							<h3 class="margin-bottom-15">Recreational activity sites</h3>
 							<img src="img/rating.png" alt="image" class="margin-bottom-5">
-							<p>28 March 2084</p>	
+							<p>28 March 2021</p>
 						</div>						
 						<a href="#" class="tm-tours-box-2-link">Book Now</a>
 					</div>
@@ -346,9 +251,9 @@ http://www.templatemo.com/tm-475-holiday
 					<div class="tm-tours-box-2">						
 						<img src="img/index-04.jpg" alt="image" class="img-responsive">
 						<div class="tm-tours-box-2-info">
-							<h3 class="margin-bottom-15">Proin Gravida Nibhvel Lorem Quis Bind</h3>
+							<h3 class="margin-bottom-15">Honeymoon places</h3>
 							<img src="img/rating.png" alt="image" class="margin-bottom-5">
-							<p>26 March 2084</p>	
+							<p>26 March 2021</p>
 						</div>						
 						<a href="#" class="tm-tours-box-2-link">Book Now</a>
 					</div>
@@ -357,9 +262,9 @@ http://www.templatemo.com/tm-475-holiday
 					<div class="tm-tours-box-2">						
 						<img src="img/index-05.jpg" alt="image" class="img-responsive">
 						<div class="tm-tours-box-2-info">
-							<h3 class="margin-bottom-15">Proin Gravida Nibhvel Lorem Quis Bind</h3>
+							<h3 class="margin-bottom-15">Sea tour</h3>
 							<img src="img/rating.png" alt="image" class="margin-bottom-5">
-							<p>24 March 2084</p>	
+							<p>24 March 2021</p>
 						</div>						
 						<a href="#" class="tm-tours-box-2-link">Book Now</a>
 					</div>
@@ -368,9 +273,9 @@ http://www.templatemo.com/tm-475-holiday
 					<div class="tm-tours-box-2">						
 						<img src="img/index-06.jpg" alt="image" class="img-responsive">
 						<div class="tm-tours-box-2-info">
-							<h3 class="margin-bottom-15">Proin Gravida Nibhvel Lorem Quis Bind</h3>
+							<h3 class="margin-bottom-15">Wildlife visit</h3>
 							<img src="img/rating.png" alt="image" class="margin-bottom-5">
-							<p>22 March 2084</p>	
+							<p>22 March 2021</p>
 						</div>						
 						<a href="#" class="tm-tours-box-2-link">Book Now</a>
 					</div>
@@ -378,8 +283,8 @@ http://www.templatemo.com/tm-475-holiday
 			</div>
 			<div class="row">
 				<div class="col-lg-12">
-					<p class="home-description">Lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-					Morbi accumsaipsu m velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat.
+					<p class="home-description">We offer the visit for most preferred destinations for our beloved customers.
+					Place the booking for your favourite packages. We hope to provide a wonderful service.
 					</p>					
 				</div>
 			</div>	
@@ -388,7 +293,7 @@ http://www.templatemo.com/tm-475-holiday
 	<footer class="tm-black-bg">
 		<div class="container">
 			<div class="row">
-              <p class="tm-copyright-text">Copyright &copy; 2021 Find Your Tour Software by ..... </p>
+              <p class="tm-copyright-text">Copyright &copy; 2021 Find Your Tour Software by ARKS Solutions.  </p>
 			</div>
 		</div>		
 	</footer>
