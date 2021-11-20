@@ -21,7 +21,10 @@ public class BookingServiceTest {
     @BeforeAll
     void setUp() {
         Booking booking = new Booking();
+        booking.setUserID("45");
         booking.setDate("02-01-2021");
+        booking.setPackageID("10");
+        booking.setPaymentReceipt_no("123400");
 
 
         bookingService.saveBooking(booking);

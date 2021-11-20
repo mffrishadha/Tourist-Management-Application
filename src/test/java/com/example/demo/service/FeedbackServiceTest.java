@@ -19,6 +19,7 @@ public class FeedbackServiceTest {
     @BeforeAll
     void setUp() {
         Feedback feedback = new Feedback();
+        feedback.setUserID("12");
         feedback.setFeed_back("Good service !");
 
 

@@ -33,11 +33,19 @@
 				<form method="post" class="login100-form validate-form align-top" action="/create-booking">
 					<span class="login100-form-title p-b-34">MAKE A BOOKING</span>
 
-					<div class="wrap-input100 rs1-wrap-input100 validate-input m-b-20" data-validate="Type Feedback">
-						<input id="date" class="input100" type="text" name="date" placeholder="Date">
+                    <div class="wrap-input100 rs1-wrap-input100 validate-input m-b-20" data-validate="Type User ID">
+                    	<input id="userID" class="input100" type="text" name="userID" placeholder="User ID">
+                    	<span class="focus-input100"></span>
+                    </div>
+					<div class="wrap-input100 rs1-wrap-input100 validate-input m-b-20" data-validate="Type Date">
+						<input id="date" class="input100" type="text" name="date" placeholder="MM-DD-YY">
 						<span class="focus-input100"></span>
 					</div>
-					<div class="wrap-input100 rs1-wrap-input100 validate-input m-b-20" data-validate="Type Feedback">
+					<div class="wrap-input100 rs1-wrap-input100 validate-input m-b-20" data-validate="Type Package ID">
+                        <input id="packageID" class="input100" type="text" name="packageID" placeholder="Package ID">
+                        <span class="focus-input100"></span>
+                    </div>
+					<div class="wrap-input100 rs1-wrap-input100 validate-input m-b-20" data-validate="Type payment receipt number">
                     	<input id="paymentReceipt_no" class="input100" type="text" name="paymentReceipt_no" placeholder="Payment Receipt_no">
                     	<span class="focus-input100"></span>
                     </div>

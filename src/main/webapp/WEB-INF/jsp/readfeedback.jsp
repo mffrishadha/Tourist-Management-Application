@@ -31,7 +31,8 @@
 			 <table class="table">
                 <thead >
                     <th scope="col" bgcolor="#000000" style="color:white;">ID</th>
-					<th scope="col" bgcolor="#000000" style="color:white;">FEEDBACK</th>
+                    <th scope="col" bgcolor="#000000" style="color:white;">User ID</th>
+					<th scope="col" bgcolor="#000000" style="color:white;">Feedback</th>
 					<th scope="col" bgcolor="#000000" style="color:white;"></th>
                     <th scope="col" bgcolor="#000000" style="color:white;"></th>
 			    </thead>
@@ -40,6 +41,7 @@
 			    <tbody>
                   <tr>
                     <th scope="row">${feedback.id}</th>
+                    <td>${feedback.userID}</td>
             		<td>${feedback.feed_back}</td>
 
                     <td><a href="/update-feedback/${feedback.id}">Update</a></td>

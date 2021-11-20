@@ -22,7 +22,13 @@ public class Packages {
     private Integer id;
 
     @Column
+    private String userID;
+
+    @Column
     private String packageName;
+
+    @Column
+    private String hotelID;
 
     @Column
     private String price;

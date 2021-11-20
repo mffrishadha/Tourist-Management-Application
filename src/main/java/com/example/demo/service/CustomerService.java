@@ -36,6 +36,7 @@ public class CustomerService {
         updatedCustomer.setEmail(customer.getEmail());
         updatedCustomer.setNic(customer.getNic());
         updatedCustomer.setPassportNo(customer.getPassportNo());
+        updatedCustomer.setUserType(customer.getUserType());
 
 
         return customerRepository.save(updatedCustomer);

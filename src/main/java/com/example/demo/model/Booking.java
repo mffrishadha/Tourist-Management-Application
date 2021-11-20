@@ -18,7 +18,13 @@ public class Booking {
     private Integer id;
 
     @Column
+    private String userID;
+
+    @Column
     private String date;
+
+    @Column
+    private String packageID;
 
     @Column
     private String paymentReceipt_no;

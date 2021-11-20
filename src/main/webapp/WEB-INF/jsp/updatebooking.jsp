@@ -32,12 +32,19 @@
 	  <div class="limiter" align="center">
                   <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
                                <form:form method="post" action="/update-booking/${id}" class="login100-form validate-form align-top">
-                 					<span class="login100-form-title p-b-34">BOOKING UPDATION</span>
-
+                 					<span class="login100-form-title p-b-34">UPDATE BOOKING </span>
+                                    <div class="wrap-input100 rs1-wrap-input100 validate-input m-b-20" data-validate="Type User ID">
+                                        <input id="date" class="input100" type="text" placeholder="User ID">
+                                        <span class="focus-input100"></span>
+                                    </div>
                  					<div class="wrap-input100 rs1-wrap-input100 validate-input m-b-20" data-validate="Type Date">
                  						<form:input path="date" class="input100" type="text"/>
                  						<span class="focus-input100"></span>
                  					</div>
+                 					<div class="wrap-input100 rs1-wrap-input100 validate-input m-b-20" data-validate="Type Package ID">
+                                        <input id="packageID" class="input100" type="text"  placeholder="Package ID">
+                                        <span class="focus-input100"></span>
+                                    </div>
                  					<div class="wrap-input100 rs2-wrap-input100 validate-input m-b-20" data-validate="Receipt_No">
                  						<form:input path="paymentReceipt_no" class="input100" type="text"/>
                  						<span class="focus-input100"></span>

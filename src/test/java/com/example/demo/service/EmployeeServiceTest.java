@@ -23,7 +23,7 @@ public class EmployeeServiceTest {
         employee.setUserType("Guide");
         employee.setUsername("AlexSue");
         employee.setPassword("alex@123");
-        employee.setPhoneNumber("0774589685");
+        employee.setPhoneNo("0774589685");
 
         employeeService.saveEmployee(employee);
     }
@@ -42,9 +42,9 @@ public class EmployeeServiceTest {
     @Test
     void testUpdateEmployee() {
         Employee employee = employeeService.findById(1).orElseThrow(EntityNotFoundException::new);
-        employee.setPhoneNumber("0778965478");
+        employee.setPhoneNo("0778965478");
         Employee updatedEmployee = employeeService.updateEmployee(1, employee);
-        Assertions.assertEquals("0778965478", updatedEmployee.getPhoneNumber());
+        Assertions.assertEquals("0778965478", updatedEmployee.getPhoneNo());
     }
 
     @AfterAll

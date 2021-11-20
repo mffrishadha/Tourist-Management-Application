@@ -34,7 +34,9 @@ public class BookingService {
 
     public Booking updatBooking(int id, Booking booking) {
         Booking updateBooking = bookingRepository.findById(id).orElse(null);
+        updateBooking.setUserID(booking.getUserID());
         updateBooking.setDate(booking.getDate());
+        updateBooking.setPackageID(booking.getPackageID());
         updateBooking.setPaymentReceipt_no(booking.getPaymentReceipt_no());
 
         return bookingRepository.save(updateBooking);

@@ -56,7 +56,7 @@
                     <td>${employee.email}</td>
                     <td>${employee.nic}</td>
                     <td>${employee.passportNo}</td>
-                    <td>${employee.employeeType}</td>
+                    <td>${employee.userType}</td>
                     <td><a href="/update-employee/${employee.id}">Update</a></td>
                     <td><a href="/delete-employee/${employee.id}">Remove</a></td>
                   </tr>

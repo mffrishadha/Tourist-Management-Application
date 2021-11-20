@@ -19,8 +19,8 @@ public class HotelsServiceTest {
     @BeforeAll
     void setUp() {
         Hotels hotels = new Hotels();
-        hotels.setName("KRMS");
-        hotels.setLocation("Ratnapura");
+        hotels.setName("Hilton");
+        hotels.setLocation("Colombo");
         hotels.setPhoneNumber("0774776742");
 
         hotelsService.saveHotels(hotels);
@@ -34,7 +34,7 @@ public class HotelsServiceTest {
     @Test
     void testFindById() {
         Hotels hotels = hotelsService.findById(1).orElseThrow(EntityNotFoundException::new);
-        Assertions.assertEquals("KRMS", hotels.getName());
+        Assertions.assertEquals("Hilton", hotels.getName());
     }
 
     @Test

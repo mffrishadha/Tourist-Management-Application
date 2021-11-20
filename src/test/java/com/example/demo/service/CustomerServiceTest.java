@@ -25,6 +25,7 @@ public class CustomerServiceTest {
         customer.setEmail("john123@gmail.com");
         customer.setNic("964578114V");
         customer.setPassportNo("123456");
+        customer.setUserType("customer");
         customerService.saveCustomer(customer);
     }
 

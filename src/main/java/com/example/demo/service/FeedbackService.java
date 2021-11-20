@@ -30,6 +30,7 @@ public class FeedbackService {
 
     public Feedback updateFeedback(int id, Feedback feedback) {
         Feedback updatedFeedback = feedbackRepository.findById(id).orElse(null);
+        updatedFeedback.setUserID(feedback.getUserID());
         updatedFeedback.setFeed_back(feedback.getFeed_back());
 
         return feedbackRepository.save(updatedFeedback);

@@ -37,7 +37,7 @@ http://www.templatemo.com/tm-475-holiday
 						<ul>
 							<li><a href="/home"  style="padding-left:20px;padding-right:20px;">Home</a></li>
                             <li><a href="/tours"  style="padding-left:20px;padding-right:20px;">Our Tours</a></li>
-                             <li><a href="/bookings" style="padding-left:20px;padding-right:20px;">Bookings</a></li>
+                             <li><a href="/read-booking" style="padding-left:20px;padding-right:20px;">Bookings</a></li>
                              <li><a href="/read-packages" style="padding-left:20px;padding-right:10px;">Package Management</a></li>
                              <li><a href="/read-hotels" style="padding-left:20px;padding-right:20px;">Hotel Details</a></li>
                              <li><a href="/read-employee" style="padding-left:20px;padding-right:10px;">User Management</a></li>

@@ -19,28 +19,30 @@ public class Employee{
     private Integer id;
 
     @Column
-    private String username;
-
-    @Column
     private String firstname;
 
     @Column
     private String lastname;
 
     @Column
+    private String username;
+
+    @Column
     private String password;
 
     @Column
-    private String userType;
+    private String phoneNo;
 
     @Column
-    private String phoneNumber;
-
-    @Column
-    private String passport;
+    private String email;
 
     @Column
     private String nic;
 
+    @Column
+    private String passportNo;
+
+    @Column
+    private String userType;
 
 }

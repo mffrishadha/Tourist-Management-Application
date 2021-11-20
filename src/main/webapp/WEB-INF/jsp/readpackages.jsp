@@ -31,7 +31,9 @@
 			 <table class="table" >
                 <thead >
                     <th scope="col" bgcolor="#000000" style="color:white;">ID</th>
+                    <th scope="col" bgcolor="#000000" style="color:white;">USER ID</th>
 					<th scope="col" bgcolor="#000000" style="color:white;">PACKAGE NAME</th>
+					<th scope="col" bgcolor="#000000" style="color:white;">HOTEL ID</th>
 					<th scope="col" bgcolor="#000000" style="color:white;">PRICE</th>
                     <th scope="col" bgcolor="#000000" style="color:white;">DESCRIPTION</th>
                     <th scope="col" bgcolor="#000000" style="color:white;">DURATION</th>
@@ -43,7 +45,9 @@
 			    <tbody>
                   <tr>
                     <th scope="row">${packages.id}</th>
+                    <td>${packages.userID}</td>
             		<td>${packages.packageName}</td>
+            		<td>${packages.hotelID}</td>
             		<td>${packages.price}</td>
                     <td>${packages.description}</td>
                     <td>${packages.duration}</td>

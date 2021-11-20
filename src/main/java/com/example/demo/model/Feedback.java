@@ -21,5 +21,8 @@ public class Feedback {
     private Integer id;
 
     @Column
+    private String userID;
+
+    @Column
     private String feed_back;
 }

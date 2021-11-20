@@ -33,12 +33,18 @@
 
 				<form method="post" class="login100-form validate-form align-top" action="/create-packages">
 					<span class="login100-form-title p-b-34">PACKAGE REGISTRATION</span>
-
+                    <div class="wrap-input100 validate-input m-b-20" >
+                         <input class="input100" type="text" name="userID" placeholder="User ID">
+                         <span class="focus-input100"></span>
+                    </div>
 					<div class="wrap-input100 validate-input m-b-20" >
                          <input class="input100" type="text" name="packageName" placeholder="Package Name">
                          <span class="focus-input100"></span>
                     </div>
-
+                    <div class="wrap-input100 validate-input m-b-20" >
+                    	<input class="input100" type="text" name="hotelID" placeholder="Hotel ID">
+                    	<span class="focus-input100"></span>
+                    </div>
 					<div class="wrap-input100 validate-input m-b-20" >
                     	<input class="input100" type="text" name="price" placeholder="Price">
                     	<span class="focus-input100"></span>

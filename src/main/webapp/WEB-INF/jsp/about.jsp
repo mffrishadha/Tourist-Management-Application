@@ -41,7 +41,7 @@ http://www.templatemo.com/tm-475-holiday
 							<li><a href="index_home.html">Home</a></li>
 							<li><a href="about" class="active">About</a></li>
 							<li><a href="tours.html">Our Tours</a></li>
-							<li><a href="tours.html">Bookings</a></li>
+							<li><a href="read-booking">Bookings</a></li>
 							<li><a href="contact.html">Contact</a></li>
 							<li><a href="/logOut-customer">Logout</a></li>
 						</ul>
@@ -95,7 +95,7 @@ http://www.templatemo.com/tm-475-holiday
 			      <div class="flex-caption">
 			      	<h2 class="slider-title">Welcome To Holiday</h2>
 			      	<h3 class="slider-subtitle">Plan your perfect tours with our expert consultants</h3>
-			      	<p class="slider-description">Holiday is A vacation is what you take when you can no longer take what you have been taking.  <br><br>
+			      	<p class="slider-description"> Holiday is A vacation is what you take when you can no longer take what you have been taking.  <br><br>
                     Join our hands to make your travel destinations perfect. View the tour packages planned by our experts and place your bookings to create awesome memories in best destinations. </p>
 			      	<div class="slider-social">
 			      		<a href="#" class="tm-social-icon"><i class="fa fa-twitter"></i></a>

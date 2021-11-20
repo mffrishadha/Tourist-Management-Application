@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Holiday - Contact</title>
+	<title>Holiday - Plan</title>
 <!--
 Holiday Template
 http://www.templatemo.com/tm-475-holiday
@@ -86,7 +86,7 @@ http://www.templatemo.com/tm-475-holiday
 						<div class="contact-text">
 							<h2 class="slider-title">Welcome To Holiday</h2>
                             <h3 class="slider-subtitle">Plan your perfect tours with our expert consultants</h3>
-                            p class="slider-description">Holiday is A vacation is what you take when you can no longer take what you have been taking.  <br><br>
+                            <p class="slider-description">Holiday is A vacation is what you take when you can no longer take what you have been taking.  <br><br>
                                Join our hands to make your travel destinations perfect. View the tour packages planned by our experts and place your bookings to create awesome memories in best destinations. </p>
                             <div class="slider-social">
 								<a href="#" class="tm-social-icon"><i class="fa fa-twitter"></i></a>

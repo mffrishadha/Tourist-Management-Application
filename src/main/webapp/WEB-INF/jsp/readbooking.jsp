@@ -31,17 +31,22 @@
 			 <table class="table">
                 <thead >
                     <th scope="col" bgcolor="#000000" style="color:white;">ID</th>
+                    <th scope="col" bgcolor="#000000" style="color:white;">User ID</th>
 					<th scope="col" bgcolor="#000000" style="color:white;">Date</th>
+					<th scope="col" bgcolor="#000000" style="color:white;">Package ID</th>
 					<th scope="col" bgcolor="#000000" style="color:white;">Receipt_No</th>
-                    <th scope="col" bgcolor="#000000" style="color:white;"></th>
-                    <th scope="col" bgcolor="#000000" style="color:white;"></th>
+					<th scope="col" bgcolor="#000000" style="color:white;"></th>
+					<th scope="col" bgcolor="#000000" style="color:white;"></th>
+
 			    </thead>
 
 			<c:forEach var="booking" items="${booking}">
 			    <tbody>
                   <tr>
                     <th scope="row">${booking.id}</th>
+                    <td>${booking.userID}</td>
             		<td>${booking.date}</td>
+            		<td>${booking.packageID}</td>
             		<td>${booking.paymentReceipt_no}</td>
 
                     <td><a href="/update-booking/${booking.id}">Update</a></td>

@@ -27,7 +27,9 @@ public class PackagesService
 
     public Packages updatePackages(int id, Packages packages) {
         Packages updatedPackages = packagesRepository.findById(id).orElse(null);
+        updatedPackages.setUserID(packages.getUserID());
         updatedPackages.setPackageName(packages.getPackageName());
+        updatedPackages.setHotelID(packages.getHotelID());
         updatedPackages.setPrice(packages.getPrice());
         updatedPackages.setDescription(packages.getDescription());
         updatedPackages.setDuration(packages.getDuration());

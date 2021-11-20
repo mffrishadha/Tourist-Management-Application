@@ -19,7 +19,9 @@ public class PackagesServiceTest {
     @BeforeAll
     void setUp() {
         Packages packages = new Packages();
+        packages.setUserID("2");
         packages.setPackageName("KRMS");
+        packages.setHotelID("3");
         packages.setPrice("10");
         packages.setDescription("be cool");
         packages.setDuration("2hr");
