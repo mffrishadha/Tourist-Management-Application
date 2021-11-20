@@ -27,24 +27,24 @@ http://www.templatemo.com/tm-475-holiday
 <body>
 	<!-- Header -->
   	<div class="tm-header">
-  		<div class="container-fluid">
+  		<div class="container">
   			<div class="row">
 
-	  			<div class="col-md-12">
+	  			<div class="col-lg-12">
 	  				<div class="mobile-menu-icon">
 		              <i class="fa fa-bars"></i>
 		            </div>
 	  				<nav class="tm-nav">
 						<ul>
-							<li><a href="/home" >Home</a></li>
-							<li><a href="/tours">Our Tours</a></li>
-							<li><a href="/bookings" class="active">Bookings</a></li>
-							<li><a href="#">Package Management</a></li>
-							<li><a href="/read-hotels">Hotel Details</a></li>
-							<li><a href="/read-employee">User Management</a></li>
-							<li><a href="/contact">Contact</a></li>
-							<li><a href="/contact">Feed backs</a></li>
-							<li><a href="/logOut-customer">Logout</a></li>
+							<li><a href="/home"  style="padding-left:20px;padding-right:20px;">Home</a></li>
+                            <li><a href="/tours" style="padding-left:20px;padding-right:20px;">Our Tours</a></li>
+                            <li><a href="/bookings"  class="active" style="padding-left:20px;padding-right:20px;">Bookings</a></li>
+                            <li><a href="/read-packages" style="padding-left:20px;padding-right:10px;">Package Management</a></li>
+                            <li><a href="/read-hotels" style="padding-left:20px;padding-right:20px;">Hotel Details</a></li>
+                            <li><a href="/read-employee" style="padding-left:20px;padding-right:10px;">User Management</a></li>
+                            <li><a href="/contact" style="padding-left:20px;padding-right:20px;">Contact</a></li>
+                            <li><a href="/read-feedback" style="padding-left:10px;padding-right:10px;">Feed backs</a></li>
+                            <li><a href="/logOut-customer" style="padding-left:20px;padding-right:10px;">Logout</a></li>
 						</ul>
 					</nav>		
 	  			</div>				
@@ -69,8 +69,14 @@ http://www.templatemo.com/tm-475-holiday
 		</div>	
 	</section>
 
+
 	<!-- gray bg -->	
-	<section class="container tm-home-section-1" id="more">
+	<section class="container tm-home-section-1" id="more" style="margin-top:90px;">
+	<div class="tm-section-header" style="margin-bottom:30px;">
+
+                           <div class="col-lg-4 col-md-6 col-sm-6"><h2 class="tm-section-title"></h2></div>
+
+                    </div>
 		<div class="row">
 			<!-- slider -->
 			<div class="flexslider effect2 effect2-contact tm-contact-box-1">

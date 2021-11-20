@@ -30,11 +30,11 @@
 		<span class="login100-form-title p-b-34">BOOKING DETAILS</span>
 			 <table class="table">
                 <thead >
-                    <th scope="col" bgcolor="7DF2F8">ID</th>
-					<th scope="col" bgcolor="7DF2F8">Date</th>
-					<th scope="col" bgcolor="7DF2F8">Receipt_No</th>
-                    <th scope="col" bgcolor="7DF2F8"></th>
-                    <th scope="col" bgcolor="7DF2F8"></th>
+                    <th scope="col" bgcolor="#000000" style="color:white;">ID</th>
+					<th scope="col" bgcolor="#000000" style="color:white;">Date</th>
+					<th scope="col" bgcolor="#000000" style="color:white;">Receipt_No</th>
+                    <th scope="col" bgcolor="#000000" style="color:white;"></th>
+                    <th scope="col" bgcolor="#000000" style="color:white;"></th>
 			    </thead>
 
 			<c:forEach var="booking" items="${booking}">

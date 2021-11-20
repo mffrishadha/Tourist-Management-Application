@@ -30,10 +30,10 @@
 		<span class="login100-form-title p-b-34">CUSTOMER FEEDBACK</span>
 			 <table class="table">
                 <thead >
-                    <th scope="col" bgcolor="7DF2F8">ID</th>
-					<th scope="col" bgcolor="7DF2F8">FEEDBACK</th>
-					<th scope="col" bgcolor="7DF2F8"></th>
-                    <th scope="col" bgcolor="7DF2F8"></th>
+                    <th scope="col" bgcolor="#000000" style="color:white;">ID</th>
+					<th scope="col" bgcolor="#000000" style="color:white;">FEEDBACK</th>
+					<th scope="col" bgcolor="#000000" style="color:white;"></th>
+                    <th scope="col" bgcolor="#000000" style="color:white;"></th>
 			    </thead>
 
 			<c:forEach var="feedback" items="${feedback}">

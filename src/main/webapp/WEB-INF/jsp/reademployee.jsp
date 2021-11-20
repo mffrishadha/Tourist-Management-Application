@@ -30,18 +30,18 @@
 		<span class="login100-form-title p-b-34">USER ACCOUNT DETAILS</span>
 			 <table class="table">
                 <thead >
-                    <th scope="col" bgcolor="7DF2F8">ID</th>
-					<th scope="col" bgcolor="7DF2F8">F.NAME</th>
-					<th scope="col" bgcolor="7DF2F8">L.NAME</th>
-					<th scope="col" bgcolor="7DF2F8">USER NAME</th>
-					<th scope="col" bgcolor="7DF2F8">PASSWORD</th>
-                    <th scope="col" bgcolor="7DF2F8">PHONE NO.</th>
-                    <th scope="col" bgcolor="7DF2F8">EMAIL</th>
-                    <th scope="col" bgcolor="7DF2F8">NIC</th>
-                    <th scope="col" bgcolor="7DF2F8">PASSPORT NO:</th>
-                    <th scope="col" bgcolor="7DF2F8">USER TYPE</th>
-                    <th scope="col" bgcolor="7DF2F8"></th>
-                    <th scope="col" bgcolor="7DF2F8"></th>
+                    <th scope="col" bgcolor="#000000" style="color:white;">ID</th>
+					<th scope="col" bgcolor="#000000" style="color:white;">FIRST NAME</th>
+					<th scope="col" bgcolor="#000000" style="color:white;">LAST NAME</th>
+					<th scope="col" bgcolor="#000000" style="color:white;">USER NAME</th>
+					<th scope="col" bgcolor="#000000" style="color:white;">PASSWORD</th>
+                    <th scope="col" bgcolor="#000000" style="color:white;">PHONE NO.</th>
+                    <th scope="col" bgcolor="#000000" style="color:white;">EMAIL</th>
+                    <th scope="col" bgcolor="#000000" style="color:white;">NIC</th>
+                    <th scope="col" bgcolor="#000000" style="color:white;">PASSPORT NO:</th>
+                    <th scope="col" bgcolor="#000000" style="color:white;">USER TYPE</th>
+                    <th scope="col" bgcolor="#000000" style="color:white;"></th>
+                    <th scope="col" bgcolor="#000000" style="color:white;"></th>
 			    </thead>
 
 			<c:forEach var="employee" items="${employee}">

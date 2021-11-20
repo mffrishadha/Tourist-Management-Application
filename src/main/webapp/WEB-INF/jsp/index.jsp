@@ -33,8 +33,8 @@
 			<div class="wrap-login100">
                       <div col-md-6  class="login100-more" style="background-image: url('images/bg-01.jpg');"></div>
                       <div col-md-6 class="d-flex p-2" style="display: block !important; padding-right: 65px !important;">
-                        <form method="post" action="/login-user">
-                            <span class="login100-form-title p-b-34" align="center">
+                        <form method="post" action="/login-user" style="padding-right:70px;">
+                            <span class="login100-form-title p-b-34" align="center" style="padding-top:10px;">
                                 Account Login
                             </span>
                             <div class="d-flex p-2">
@@ -48,7 +48,7 @@
 
                             <div class="container-login100-form-btn">
                                 <button class="login100-form-btn" type="submit">
-                                    Sign in
+                                    Login
                                 </button>
                             </div>
                             <div class="w-full text-center p-t-27 p-b-239">
@@ -58,10 +58,12 @@
 
                         </form>
 
-                        <form method="post" action="/signUp-user">
+                         <form method="post" action="/signUp-user" style="padding-right:70px;">
                             <div class="w-full text-center">
-                                 <button type="submit" class="txt3">Sign Up</button>
-                             </div>
+                               <button type="submit" class="login100-form-btn" style="background-color:blue;">
+                                  Sign Up
+                               </button>
+                            </div>
                          </form>
 
 

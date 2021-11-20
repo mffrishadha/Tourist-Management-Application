@@ -28,15 +28,15 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 	<div class="container-fluid">
 		<span class="login100-form-title p-b-34">PACKAGE DETAILS</span>
-			 <table class="table">
+			 <table class="table" >
                 <thead >
-                    <th scope="col" bgcolor="7DF2F8">ID</th>
-					<th scope="col" bgcolor="7DF2F8">PACKAGE NAME</th>
-					<th scope="col" bgcolor="7DF2F8">PRICE</th>
-                    <th scope="col" bgcolor="7DF2F8">DESCRIPTION</th>
-                    <th scope="col" bgcolor="7DF2F8">DURATION</th>
-                    <th scope="col" bgcolor="7DF2F8"></th>
-                    <th scope="col" bgcolor="7DF2F8"></th>
+                    <th scope="col" bgcolor="#000000" style="color:white;">ID</th>
+					<th scope="col" bgcolor="#000000" style="color:white;">PACKAGE NAME</th>
+					<th scope="col" bgcolor="#000000" style="color:white;">PRICE</th>
+                    <th scope="col" bgcolor="#000000" style="color:white;">DESCRIPTION</th>
+                    <th scope="col" bgcolor="#000000" style="color:white;">DURATION</th>
+                    <th scope="col" bgcolor="#000000" style="color:white;"></th>
+                    <th scope="col" bgcolor="#000000" style="color:white;"></th>
 			    </thead>
 
 			<c:forEach var="packages" items="${packages}">

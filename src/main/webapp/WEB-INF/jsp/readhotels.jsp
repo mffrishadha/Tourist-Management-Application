@@ -30,12 +30,12 @@
 		<span class="login100-form-title p-b-34">HOTEL DETAILS</span>
 			 <table class="table">
                 <thead >
-                    <th scope="col" bgcolor="7DF2F8">ID</th>
-					<th scope="col" bgcolor="7DF2F8">HOTEL NAME</th>
-					<th scope="col" bgcolor="7DF2F8">LOCATION</th>
-                    <th scope="col" bgcolor="7DF2F8">PHONE NO.</th>
-                    <th scope="col" bgcolor="7DF2F8"></th>
-                    <th scope="col" bgcolor="7DF2F8"></th>
+                    <th scope="col" bgcolor="#000000" style="color:white;">ID</th>
+					<th scope="col" bgcolor="#000000" style="color:white;">HOTEL NAME</th>
+					<th scope="col" bgcolor="#000000" style="color:white;">LOCATION</th>
+                    <th scope="col" bgcolor="#000000" style="color:white;">PHONE NO.</th>
+                    <th scope="col" bgcolor="#000000" style="color:white;"></th>
+                    <th scope="col" bgcolor="#000000" style="color:white;"></th>
 			    </thead>
 
 			<c:forEach var="hotels" items="${hotels}">

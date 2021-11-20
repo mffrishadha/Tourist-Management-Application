@@ -24,23 +24,23 @@
   <body class="tm-gray-bg">
   	<!-- Header -->
   	<div class="tm-header">
-  		<div class="container-fluid">
+  		<div class="container">
   			<div class="row">
-	  			<div class="col-md-12">
+	  			<div class="col-lg-12">
 	  				<div class="mobile-menu-icon">
 		              <i class="fa fa-bars"></i>
 		            </div>
 	  				<nav class="tm-nav">
 						<ul>
-							<li><a href="/home" class="active">Home</a></li>
-							<li><a href="/tours">Our Tours</a></li>
-							<li><a href="/bookings">Bookings</a></li>
-							<li><a href="read-packages">Package Management</a></li>
-							<li><a href="/read-hotels">Hotel Management</a></li>
-							<li><a href="/read-employee">User Management</a></li>
-							<li><a href="/contact">Contact</a></li>
-							<li><a href="/read-feedback">Feedbacks</a></li>
-							<li><a href="/logOut-customer">Logout</a></li>
+							    <li><a href="/home" class="active" style="padding-left:20px;padding-right:20px;">Home</a></li>
+                                <li><a href="/tours" style="padding-left:20px;padding-right:20px;">Our Tours</a></li>
+                                <li><a href="/bookings" style="padding-left:20px;padding-right:20px;">Bookings</a></li>
+                                <li><a href="/read-packages" style="padding-left:20px;padding-right:10px;">Package Management</a></li>
+                                <li><a href="/read-hotels" style="padding-left:20px;padding-right:20px;">Hotel Details</a></li>
+                                <li><a href="/read-employee" style="padding-left:20px;padding-right:10px;">User Management</a></li>
+                                <li><a href="/contact" style="padding-left:20px;padding-right:20px;">Contact</a></li>
+                                <li><a href="/read-feedback" style="padding-left:10px;padding-right:10px;">Feed backs</a></li>
+                                <li><a href="/logOut-customer" style="padding-left:20px;padding-right:10px;">Logout</a></li>
 						</ul>
 					</nav>		
 	  			</div>				
@@ -57,7 +57,7 @@
 			    <div class="tm-banner-inner">
 					<h1 class="tm-banner-title">Find <span class="tm-yellow-text">The Best</span> Place</h1>
 					<p class="tm-banner-subtitle">For Your Holidays</p>
-					<a href="#more" class="tm-banner-link">Learn More</a>	
+					<a href="#more" class="tm-banner-link">View More</a>
 				</div>
 				<img src="/img/banner-1.jpg" alt="Image" />
 		    </li>
@@ -65,7 +65,7 @@
 			    <div class="tm-banner-inner">
 					<h1 class="tm-banner-title">Colourful <span class="tm-yellow-text">Memories</span> With</h1>
 					<p class="tm-banner-subtitle">Wonderful Destinations</p>
-					<a href="#more" class="tm-banner-link">Learn More</a>	
+					<a href="#more" class="tm-banner-link">View More</a>
 				</div>
 		      <img src="/img/banner-2.jpg" alt="Image" />
 		    </li>
@@ -73,7 +73,7 @@
 			    <div class="tm-banner-inner">
 					<h1 class="tm-banner-title">Tour  <span class="tm-yellow-text">Planning</span> Experts</h1>
 					<p class="tm-banner-subtitle">Interesting Packages</p>
-					<a href="#more" class="tm-banner-link">Learn More</a>	
+					<a href="#more" class="tm-banner-link">View More</a>
 				</div>
 		      <img src="/img/banner-3.jpg" alt="Image" />
 		    </li>
@@ -81,8 +81,15 @@
 		</div>	
 	</section>
 
+
+
 	<!-- gray bg -->	
-	<section class="container tm-home-section-1" id="more">
+	<section class="container tm-home-section-1" id="more" style="margin-top:90px;">
+	    <div class="tm-section-header" style="margin-bottom:30px;">
+                   <div class="col-lg-4 col-md-3 col-sm-3"><hr></div>
+                   <div class="col-lg-4 col-md-6 col-sm-6"><h2 class="tm-section-title">Packages</h2></div>
+                   <div class="col-lg-4 col-md-3 col-sm-3"><hr></div>
+            </div>
 		<div class="row">
 
             <div class="col-lg-4 col-md-4 col-sm-6">
