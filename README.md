@@ -12,6 +12,10 @@ Step 3:
 # Use the below command to run the Maven spring boot application
 ./mvnw spring-boot:run
 
+# Sample login details:
+username: admin
+password: admin
+
 Step 4:
 # Use the below command to test the Maven spring boot application
 ./mvnw test
